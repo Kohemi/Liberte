@@ -1,0 +1,25 @@
+Low poly canyon with water
+Package includes 19 models, 1 texture, and water shader.
+16 Rocks, 1 lily pad, 1 grass mesh and typha.
+Grass01 - 140 tris
+Lily pad - 52 tris
+Typha - 83 tris
+Rock01 - 574 tris
+Rock02 - 689 tris
+Rock03 - 207 tris
+Rock04 - 312 tris
+Rock05 - 181 tris
+Rock06 - 104 tris
+Rock07 - 137 tris
+Rock08 - 90 tris
+Rock09 - 22 tris
+Rock010 - 18 tris
+Rock011 - 76 tris
+Rock012 - 78 tris
+Rock013 - 64 tris
+Rock04 - 60 tris
+Rock05 - 72 tris
+Rock06 - 166 tris
+
+This package works in HDRP, but you can take models and texture to create your own materials.
+

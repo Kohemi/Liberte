@@ -6,30 +6,50 @@ public class StareInteract : MonoBehaviour
 {
     public string currentTag;
     public RaycastDetect raycastDetect;
-    public Transform light;
+    public MoveDestination moveDestination;
+
+    // 천장 주시
+    public new Transform light;
+
+    // 천장 가운데 주시
+    public float moveTime;
+    private float stareTime; 
 
     // Start is called before the first frame update
     void Start()
     {
         raycastDetect.stare += Interact;
         raycastDetect.stopStare += StopInteract;
+
+        stareTime = 0;
     }
 
-    public void Interact(RaycastHit hit)
+    public void Interact(RaycastHit[] hits)
     {
-        if(hit.transform.CompareTag(currentTag))
+        foreach(RaycastHit hit in hits)
         {
-            switch(currentTag)
+            if (hit.transform.CompareTag(currentTag))
             {
-                case "Wall":
-                    light.LookAt(hit.point);
-                    break;
+                switch (currentTag)
+                {
+                    case "Wall":
+                        light.LookAt(hit.point);
+                        break;
+
+                    case "Center":
+                        Debug.Log("Look Center");
+
+                        stareTime += Time.deltaTime;
+                        if (stareTime >= moveTime)
+                            moveDestination.Move();
+                        break;
+                }
             }
         }
     }
 
     public void StopInteract()
     {
-        Debug.Log("See Nothing...");
+        // 응시를 하지 않을 때..
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class TouchInteract : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class TouchInteract : MonoBehaviour
     // 터치 시간 체크
     public float limitTime;
     private DateTime startTime;
+
+    public PlayableDirector director;
 
     // 임시 실험
     public TextMesh test1;
@@ -63,6 +66,8 @@ public class TouchInteract : MonoBehaviour
         if (timeDiff.Seconds < limitTime)
         {
             Debug.Log("Success");
+
+            director.Play();
 
             // 임시 실험
             test1.color = Color.blue;

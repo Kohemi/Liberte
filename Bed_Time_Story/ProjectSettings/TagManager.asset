@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Wall
   - Center
+  - FxTemporaire
+  - Title1
+  - Title2
+  - Title3
   layers:
   - Default
   - TransparentFX

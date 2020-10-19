@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/00Scenes/Level0_Intro.unity
     guid: ad6ad75f00c377440b420acb89f3fd6c
   - enabled: 1
+    path: Assets/00Scenes/Level1_Room.unity
+    guid: 16df25de56f1c9248879ce742a8e3dbf
+  - enabled: 1
     path: Assets/10PersonalFolder/YounaCha/scene/KidsRoom.unity
     guid: 3db7f3e36df73124aafe3e3888bc8633
   - enabled: 1

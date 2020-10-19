@@ -14,10 +14,13 @@ public class TouchInteract : MonoBehaviour
     public float limitTime;
     private DateTime startTime;
 
-    public PlayableDirector director;
+    public PlayableDirector cutScene1;
 
     // 임시 실험
     public TextMesh test1;
+
+    //Set Active Object
+    public GameObject doori;
     
     // Start is called before the first frame update
     void Start()
@@ -67,7 +70,8 @@ public class TouchInteract : MonoBehaviour
         {
             Debug.Log("Success");
 
-            director.Play();
+            doori.SetActive(true);
+            cutScene1.Play();
 
             // 임시 실험
             test1.color = Color.blue;

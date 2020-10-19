@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Bed_Time_Story/Assets/01Assets/01Animation/Doori_rig.controller.meta
 guid: c4884e2612c303f41b26c4d7c409b281
 NativeFormatImporter:
+=======
+guid: 0240915bc78add44aa1adf20da3d60f4
+folderAsset: yes
+DefaultImporter:
+>>>>>>> bcac9b12a64a076a5a571cf26964fefb4efa9c94:Bed_Time_Story/Assets/Resources.meta
   externalObjects: {}
   mainObjectFileID: 0
   userData: 

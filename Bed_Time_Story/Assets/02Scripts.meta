@@ -1,8 +1,14 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Bed_Time_Story/Assets/02Scripts.meta
 guid: 8e871ba2b0b84e64c9b620c4486d6418
 folderAsset: yes
 DefaultImporter:
+=======
+guid: 6a01808c06ae0e14fbca2c4912d81e91
+NativeFormatImporter:
+>>>>>>> bcac9b12a64a076a5a571cf26964fefb4efa9c94:Bed_Time_Story/Assets/Resources/OVRBuildConfig.asset.meta
   externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

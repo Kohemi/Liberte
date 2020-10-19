@@ -117,6 +117,7 @@ Shader "OvrAvatar/AvatarSurfaceShader" {
 			#pragma only_renderers d3d11 gles3 gles
 			#pragma vertex vert
 			#pragma fragment frag
+			#pragma exclude_renderers gles3 metal d3d11_9x xbox360 xboxone ps3 ps4 psp2
 			#pragma target 3.0
 			#pragma multi_compile PROJECTOR_OFF PROJECTOR_ON
 			#pragma multi_compile NORMAL_MAP_OFF NORMAL_MAP_ON

@@ -1054,6 +1054,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doori_rig
       objectReference: {fileID: 0}
+    - target: {fileID: 5034632324882470592, guid: e490fb44755e1784cb03d8f5b518e1b4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4093569879c7e634491f0d00951a295a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e490fb44755e1784cb03d8f5b518e1b4, type: 3}
 --- !u!1 &226240417
@@ -1915,6 +1920,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mom_2
       objectReference: {fileID: 0}
+    - target: {fileID: 2381223994770033901, guid: c9aa0da7d1635204082166fdd1470a6a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 479e823e186ff8c4daf2b943dd562d8c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9aa0da7d1635204082166fdd1470a6a, type: 3}
 --- !u!1 &496292352 stripped
@@ -5598,6 +5608,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.0000002533195
       objectReference: {fileID: 0}
+    - target: {fileID: -1154327842607842329, guid: e6e9b7a2ae9fe1747b86b7615dbfd5f9,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: dee367925ce84884f8e01b5240e4bdd3, type: 2}
     - target: {fileID: -1070350730909333850, guid: e6e9b7a2ae9fe1747b86b7615dbfd5f9,
         type: 3}
       propertyPath: m_LocalRotation.x

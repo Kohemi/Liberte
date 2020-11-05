@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/00Scenes/Level1_Room.unity
     guid: 16df25de56f1c9248879ce742a8e3dbf
   - enabled: 1
+    path: Assets/00Scenes/Level2_Beach.unity
+    guid: f57dbc6c0eeaa1f43a42859768587e18
+  - enabled: 1
     path: Assets/10PersonalFolder/YounaCha/scene/KidsRoom.unity
     guid: 3db7f3e36df73124aafe3e3888bc8633
   - enabled: 1

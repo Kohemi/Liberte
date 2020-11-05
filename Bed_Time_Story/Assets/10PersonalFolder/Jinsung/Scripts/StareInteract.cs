@@ -46,10 +46,12 @@ public class StareInteract : MonoBehaviour
                     case "Boat":
                         if (boat) break;
 
-                        boat = true;
                         stareTime += Time.deltaTime;
                         if (stareTime >= limitTime)
+                        {
                             director.Play();
+                            boat = true;
+                        }
                         break;
                 }
             }

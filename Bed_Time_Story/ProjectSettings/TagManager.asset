@@ -11,6 +11,7 @@ TagManager:
   - Title2
   - Title3
   - Doori
+  - Boat
   layers:
   - Default
   - TransparentFX

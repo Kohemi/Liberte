@@ -26,7 +26,5 @@ public class RaycastDetect : MonoBehaviour
         hits = Physics.RaycastAll(transform.position, transform.forward, maxDistance);
         if (hits.Length > 0)
             stare(hits);
-        else
-            stopStare();
     }
 }

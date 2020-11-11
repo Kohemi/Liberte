@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/00Scenes/Level0_Intro.unity
     guid: ad6ad75f00c377440b420acb89f3fd6c
   - enabled: 1
-    path: Assets/00Scenes/Level1_Room.unity
-    guid: 16df25de56f1c9248879ce742a8e3dbf
+    path: Assets/00Scenes/Level1.unity
+    guid: 85cf0b66d41d2394b8e2068a2911b506
   - enabled: 1
     path: Assets/00Scenes/Level2.unity
     guid: f57dbc6c0eeaa1f43a42859768587e18

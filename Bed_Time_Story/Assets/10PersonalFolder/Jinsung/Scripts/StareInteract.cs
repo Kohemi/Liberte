@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Playables;
 
 public class StareInteract : MonoBehaviour
 {
@@ -9,14 +8,12 @@ public class StareInteract : MonoBehaviour
     public RaycastDetect raycastDetect;
     public MoveDestination moveDestination;
 
-    // 손전등 조정
+    // 천장 주시
     public new Transform light;
 
-    // 씬 전환 관련
-    public float limitTime;
-    public PlayableDirector director;
-    private float stareTime;
-    private bool boat;
+    // 천장 가운데 주시
+    public float moveTime;
+    private float stareTime; 
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +22,6 @@ public class StareInteract : MonoBehaviour
         raycastDetect.stopStare += StopInteract;
 
         stareTime = 0;
-        boat = false;
     }
 
     public void Interact(RaycastHit[] hits)
@@ -38,20 +34,14 @@ public class StareInteract : MonoBehaviour
                 {
                     case "Wall":
                         light.LookAt(hit.point);
-
-                        // 손전등 각도 조절
-                        light.Rotate(180f, 0f, 0f);
                         break;
 
-                    case "Boat":
-                        if (boat) break;
+                    case "Center":
+                        Debug.Log("Look Center");
 
                         stareTime += Time.deltaTime;
-                        if (stareTime >= limitTime)
-                        {
-                            director.Play();
-                            boat = true;
-                        }
+                        if (stareTime >= moveTime)
+                            moveDestination.Move();
                         break;
                 }
             }
